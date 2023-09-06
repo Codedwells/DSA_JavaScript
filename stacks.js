@@ -37,8 +37,8 @@ let s = new Stack()
 s.push('Hello')
 s.push('world')
 
-console.log("first element is :",s.peek())
-console.log("length is :",s.length())
+console.log('first element is :', s.peek())
+console.log('length is :', s.length())
 
-console.log("This item was removed:",s.pop());
-console.log("This is now the top item:",s.peek());
+console.log('This item was removed:', s.pop())
+console.log('This is now the top item:', s.peek())
